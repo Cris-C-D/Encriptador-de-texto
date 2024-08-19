@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    color: #0a3871;
+}
+
+.textos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-between;
+}
+
+textarea {
+    resize: none;
+}
+
+#entrada {
+    width: 300%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#salida {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.encryptar {
+    background-color: #0a3871;
+    color: #fff;
+}
+
+.desencryptar {
+    background-color: #fff;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+}
